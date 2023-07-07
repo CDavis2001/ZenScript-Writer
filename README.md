@@ -1,7 +1,7 @@
 # ZenScript-Writer
 GUI based ZenScript writer for adding recipes to Minecraft via CraftTweaker
 
-The Mod CraftTweaker for the game Minecraft allows users to create custom recipes for the machines from other mods. This is done using ZScript.
+The Mod CraftTweaker for the game Minecraft allows users to create custom recipes for the machines from other mods. This is done using ZenScript.
 Different mods will implement the addRecipe method but will use differing arguments in differing orders. For example two mods may add an alloy furnace that takes two items as input and gives one item as output.
 However, one mod may order arguments as input, input, output and the other as output, input, input..
 Some mods require an argument for energy whilst others may require power and time.
